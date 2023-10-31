@@ -1,0 +1,99 @@
+.homescreen {
+    /*style for infinity animation*/
+    /*style for infinity animation*/
+  }
+  .homescreen .cryptocurrencies {
+    margin-top: 52px;
+  }
+  .homescreen .cryptocurrencies__container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .homescreen .cryptocurrencies__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 47px;
+    text-align: center;
+    padding: 0 15px;
+    margin-right: -52px;
+  }
+  .homescreen .cryptocurrencies__title span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 93px;
+    height: 60px;
+    background: #0B0A1B;
+    margin: 0 10px;
+  }
+  .homescreen .cryptocurrencies__title div {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .homescreen .cryptocurrencies__description {
+    font-weight: 400;
+    font-size: 18.0982px;
+    line-height: 23px;
+    text-align: center;
+    color: #868494;
+    margin-top: 5px;
+    margin-bottom: 51px;
+    padding: 0 15px;
+    margin-right: -8px;
+  }
+  .homescreen .cryptocurrencies__coins {
+    width: 100%;
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%);
+  }
+  .homescreen .cryptocurrencies__coins:hover #track-one {
+    animation-play-state: paused;
+  }
+  .homescreen .cryptocurrencies__coins-track {
+    display: flex;
+  }
+  .homescreen #track-one {
+    animation: scrollCoins 40s linear infinite;
+    /*transform: translateX(-217px);*/
+  }
+  @keyframes scrollCoins {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(var(--x));
+      /* --x = width elements + column-gap * elements in partners__cards-track */
+    }
+  }
+  @media (max-width: 1000px) {
+    .homescreen .cryptocurrencies__title,
+  .homescreen .cryptocurrencies__description {
+      margin-right: 0;
+    }
+  }
+  @media (max-width: 800px) {
+    .homescreen .cryptocurrencies__title {
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 768px) {
+    .homescreen .cryptocurrencies {
+      margin-top: 60px;
+    }
+    .homescreen .cryptocurrencies__description {
+      margin: 10px 0 35px 0;
+    }
+  }
+  @media (max-width: 600px) {
+    .homescreen .cryptocurrencies__title {
+      font-size: 35px;
+    }
+    .homescreen .cryptocurrencies__title span {
+      width: 80px;
+      height: 50px;
+    }
+  }

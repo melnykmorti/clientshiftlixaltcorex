@@ -1,0 +1,183 @@
+.homescreen .freedom {
+    margin-top: 140px;
+  }
+  .homescreen .freedom__container {
+    max-width: 1439px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  .homescreen .freedom__box {
+    display: flex;
+  }
+  .homescreen .freedom__left {
+    margin-top: -84px;
+    margin-right: 89px;
+    position: relative;
+  }
+  .homescreen .freedom__left:before {
+    content: "";
+    position: absolute;
+    left: -53px;
+    top: 212px;
+    width: 165.77px;
+    height: 280.69px;
+    background-image: url("./homepageimages/freedom/arrow-one.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 5;
+  }
+  .homescreen .freedom__left:after {
+    content: "";
+    position: absolute;
+    right: -60px;
+    top: 441px;
+    width: 185px;
+    height: 176px;
+    background-image: url("./homepageimages/freedom/arrow-two.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 5;
+  }
+  .homescreen .freedom__left,
+  .homescreen .freedom__left img {
+    width: 696px;
+    height: 879px;
+  }
+  .homescreen .freedom__left img {
+    position: relative;
+    z-index: 10;
+  }
+  .homescreen .freedom__title {
+    font-weight: 700;
+    font-size: 50.3602px;
+    line-height: 63px;
+    margin-bottom: 14px;
+    max-width: 450px;
+  }
+  .homescreen .freedom__title span {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .homescreen .freedom__description {
+    font-weight: 400;
+    font-size: 18.8851px;
+    line-height: 24px;
+    color: #868494;
+  }
+  .homescreen .freedom__benefit-img,
+  .homescreen .freedom__benefit-img img {
+    width: 72.39px;
+    height: 72.39px;
+  }
+  .homescreen .freedom__benefit-text {
+    font-weight: 400;
+    font-size: 18.8851px;
+    line-height: 24px;
+    color: #868494;
+    padding-top: 12px;
+  }
+  .homescreen .freedom__right {
+    max-width: 562px;
+    margin-top: 64px;
+  }
+  .homescreen .freedom__benefits {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    row-gap: 25px;
+    margin-top: 35px;
+    margin-left: -11px;
+  }
+  .homescreen .freedom__benefit {
+    display: flex;
+    width: 47%;
+  }
+  @media (max-width: 1320px) {
+    .homescreen .freedom__left {
+      margin-right: 20px;
+    }
+  }
+  @media (max-width: 1240px) {
+    .homescreen .freedom__left, .homescreen .freedom__left img {
+      width: 600px;
+      height: 715px;
+    }
+    .homescreen .freedom__left {
+      margin-top: -50px;
+    }
+  }
+  @media (max-width: 1200px) {
+    .homescreen .freedom {
+      margin-top: 100px;
+    }
+  }
+  @media (max-width: 1170px) {
+    .homescreen .freedom__left, .homescreen .freedom__left img {
+      width: 535px;
+      height: 650px;
+    }
+    .homescreen .freedom__left {
+      margin-top: 10px;
+    }
+  }
+  @media (max-width: 1100px) {
+    .homescreen .freedom__box {
+      flex-direction: column;
+      align-items: center;
+    }
+    .homescreen .freedom__left {
+      margin-right: 0;
+      margin-top: 0;
+    }
+    .homescreen .freedom__right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 90%;
+      margin-top: 0;
+    }
+    .homescreen .freedom__benefit-img {
+      margin-right: 10px;
+    }
+    .homescreen .freedom__title,
+  .homescreen .freedom__description {
+      text-align: center;
+    }
+    .homescreen .freedom__benefits {
+      justify-content: space-between;
+    }
+    .homescreen .freedom {
+      margin-top: 0;
+    }
+  }
+  @media (max-width: 750px) {
+    .homescreen .freedom__title {
+      font-size: 45px;
+    }
+    .homescreen .freedom__title span {
+      font-size: 45px;
+    }
+  }
+  @media (max-width: 700px) {
+    .homescreen .freedom__benefits {
+      margin-top: 20px;
+    }
+    .homescreen .freedom__benefit {
+      width: 100%;
+    }
+  }
+  @media (max-width: 500px) {
+    .homescreen .freedom__title {
+      font-size: 38px;
+      line-height: 44px;
+      flex-direction: column;
+      display: flex;
+    }
+    .homescreen .freedom__title span {
+      font-size: 33px;
+    }
+    .homescreen .freedom__benefit-text {
+      font-size: 16px;
+    }
+  }

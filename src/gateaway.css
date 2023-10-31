@@ -1,0 +1,168 @@
+.homescreen .gateway {
+    margin-top: 114px;
+  }
+  .homescreen .gateway__container {
+    max-width: 1280px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  .homescreen .gateway__title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 89px;
+    text-align: center;
+    margin-right: -29px;
+  }
+  .homescreen .gateway__description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #8C8B90;
+    text-align: center;
+    margin-bottom: 91px;
+    margin-top: -2px;
+    margin-right: -28px;
+  }
+  .homescreen .gateway__table-container,
+  .homescreen .gateway__table-items {
+    min-width: 1000px;
+  }
+  .homescreen .gateway__table-names {
+    display: flex;
+    padding-bottom: 19px;
+    border-bottom: 1.5px solid #181818;
+  }
+  .homescreen .gateway__names-label {
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 28px;
+    color: #8C8B90;
+  }
+  .homescreen .gateway__table-names {
+    margin-top: 110px;
+  }
+  .homescreen .gateway__names-number,
+  .homescreen .gateway__table-number {
+    width: 91px;
+    padding-left: 33px;
+  }
+  .homescreen .gateway__names-name,
+  .homescreen .gateway__table-name {
+    width: 323px;
+  }
+  .homescreen .gateway__names-price,
+  .homescreen .gateway__table-price {
+    width: 227px;
+  }
+  .homescreen .gateway__names-change,
+  .homescreen .gateway__table-change {
+    width: 203px;
+  }
+  .homescreen .gateway__names-chart,
+  .homescreen .gateway__table-chart {
+    width: 280px;
+  }
+  .homescreen .gateway__names-trade,
+  .homescreen .gateway__table-trade {
+    width: 121px;
+  }
+  .homescreen .gateway__table-items {
+    display: flex;
+    flex-direction: column;
+    margin-top: 9px;
+  }
+  .homescreen .gateway__table-item {
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 7.5px;
+  }
+  .homescreen .gateway__table-item:hover {
+    background: #1F1B3E;
+  }
+  .homescreen .gateway__table-number {
+    font-weight: 400;
+    font-size: 16.5px;
+    line-height: 28px;
+    color: #757880;
+  }
+  .homescreen .gateway__table-name {
+    display: flex;
+    align-items: center;
+  }
+  .homescreen .gateway__table-name div {
+    font-weight: 400;
+    font-size: 16.5px;
+    line-height: 28px;
+    margin-left: 25px;
+  }
+  .homescreen .gateway__table-name div span {
+    color: #757880;
+    text-transform: uppercase;
+    margin-left: 11px;
+  }
+  .homescreen .gateway__table-price {
+    font-weight: 400;
+    font-size: 16.5px;
+    line-height: 28px;
+  }
+  .homescreen .gateway__table-change.gateway__table-change-plus {
+    color: #7EB194;
+  }
+  .homescreen .gateway__table-change.gateway__table-change-minus {
+    color: #DB5748;
+  }
+  .homescreen .gateway__table-trade-link {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    border: 0.75px solid #4E4DA6;
+    border-radius: 10px;
+    padding: 4px 28px;
+  }
+  .homescreen .gateway__table-trade-link:hover {
+    background-color: #4E4DA6;
+  }
+  @media (max-width: 1000px) {
+    .homescreen .gateway__table {
+      overflow-y: hidden;
+      overflow-x: scroll;
+    }
+    .homescreen .gateway__title,
+  .homescreen .gateway__description {
+      margin-right: 0;
+    }
+  }
+  @media (max-width: 800px) {
+    .homescreen .gateway {
+      margin-top: 50px;
+    }
+    .homescreen .gateway__table-names {
+      margin-top: 60px;
+    }
+    .homescreen .gateway__title {
+      font-size: 50.25px;
+    }
+    .homescreen .gateway__description {
+      margin-bottom: 30px;
+    }
+  }
+  @media (max-width: 750px) {
+    .homescreen .gateway__title {
+      font-size: 45.25px;
+      line-height: 50px;
+    }
+    .homescreen .gateway__description {
+      margin-top: 10px;
+    }
+  }
+  @media (max-width: 500px) {
+    .homescreen .gateway__title {
+      font-size: 32px;
+      line-height: 50px;
+    }
+    .homescreen .gateway__description {
+      font-size: 16px;
+    }
+  }

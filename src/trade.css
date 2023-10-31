@@ -1,0 +1,135 @@
+.homescreen .trade {
+    margin: 139px 0 0 0;
+  }
+  .homescreen .trade .global__container {
+    position: relative;
+  }
+  .homescreen .trade .global__container:after {
+    content: "";
+    position: absolute;
+    right: 80px;
+    top: -180px;
+    width: 74px;
+    height: 74px;
+    background: rgba(255, 147, 153, 0.8);
+    -webkit-filter: blur(104px);
+    filter: blur(104px);
+  }
+  .homescreen .trade .global__container:before {
+    content: "";
+    position: absolute;
+    right: 70px;
+    top: -15px;
+    width: 115px;
+    height: 115px;
+    background: #7ad1b3;
+    -webkit-filter: blur(216.5px);
+    filter: blur(216.5px);
+  }
+  .homescreen .trade__top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .homescreen .trade__top-wrapper:first-child {
+    max-width: 283px;
+  }
+  .homescreen .trade__top-wrapper:last-child {
+    max-width: 504px;
+    margin: 20px 66px 0 0;
+  }
+  .homescreen .trade__top-subtitle {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 31px;
+    color: #939495;
+    margin-bottom: 10px;
+    position: relative;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding-left: 40px;
+  }
+  .homescreen .trade__top-subtitle:before {
+    content: "";
+    position: absolute;
+    top: 13px;
+    left: 2px;
+    width: 29px;
+    height: 2px;
+    background-color: #979797;
+  }
+  .homescreen .trade__top-title {
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 43px;
+    color: #fff;
+  }
+  .homescreen .trade__top-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #aaabab;
+    max-width: 515px;
+    margin-bottom: 36px;
+  }
+  .homescreen .trade__top-link {
+    background: #7ad1b3;
+    border-radius: 5px;
+    padding: 16px 39px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    color: #242627;
+  }
+  .homescreen .trade__img {
+    margin-top: 81px;
+    margin-left: -2px;
+  }
+  .homescreen .trade__img img, .homescreen .trade__img picture {
+    width: 1156px;
+    height: 860px;
+  }
+  @media (max-width: 1200px) {
+    .homescreen .trade__img {
+      margin-left: 0;
+    }
+    .homescreen .trade__img img, .homescreen .trade__img picture {
+      width: 100%;
+      height: -webkit-fit-content;
+      height: -moz-fit-content;
+      height: fit-content;
+    }
+    .homescreen .trade__top-wrapper:last-child {
+      margin: 0;
+    }
+  }
+  @media (max-width: 930px) {
+    .homescreen .trade__top-wrapper:first-child {
+      max-width: 100%;
+    }
+    .homescreen .trade__top {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      row-gap: 30px;
+    }
+    .homescreen .trade__img {
+      margin-top: 50px;
+    }
+  }
+  @media (max-width: 600px) {
+    .homescreen .trade {
+      margin-top: 60px;
+    }
+  }

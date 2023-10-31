@@ -1,0 +1,110 @@
+.homescreen .swiper-slide {
+    width: auto !important;
+  }
+  .homescreen .coins {
+    margin-top: 85px;
+  }
+  .homescreen .coins__container {
+    max-width: 1460px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  .homescreen .coins__slider {
+    width: 100%;
+  }
+  .homescreen .coins__slider-prev,
+  .homescreen .coins__slider-next {
+    width: 45px;
+    height: 45px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 20;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  .homescreen .coins__slider-prev {
+    background-image: url("./homepageimages/coins/arrow-prev.svg");
+    left: -70px;
+  }
+  .homescreen .coins__slider-next {
+    background-image: url("./homepageimages/coins/arrow-next.svg");
+    right: -70px;
+  }
+  .homescreen .coins__slider-container {
+    max-width: 1290px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .homescreen .coins__slide {
+    background: rgb(29, 26, 51);
+    background: linear-gradient(0deg, rgb(26, 23, 56) 0%, rgb(33, 37, 58) 100%);
+    border-radius: 15px;
+    padding: 15px 0 11px 0;
+    max-width: 249px;
+    cursor: pointer;
+  }
+  .homescreen .coins__slide:hover {
+    background: linear-gradient(0deg, rgb(26, 23, 56) 0%, rgb(48, 53, 78) 100%);
+  }
+  .homescreen .coins__slide-coin {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 172%;
+    padding: 0 15px 0 17px;
+    margin-bottom: 6px;
+  }
+  .homescreen .coins__slide-coin img {
+    margin-right: 12px;
+  }
+  .homescreen .coins__slide-price {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 172%;
+    text-align: center;
+  }
+  .homescreen .coins__slide-change {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 172%;
+    text-align: center;
+    color: #EB5757;
+    background: rgba(235, 87, 87, 0.13);
+    border-radius: 84px;
+    padding: 4px 13px 5px 13px;
+    width: fit-content;
+    margin: 0 auto 14px auto;
+  }
+  .homescreen .coins__slide-change.coins__slide-change-plus {
+    background: rgba(16, 255, 26, 0.15);
+    color: #A5DC7A;
+  }
+  .homescreen .coins__slide-graph {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .homescreen .coins__slide-date {
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 172%;
+    color: rgba(255, 255, 255, 0.44);
+    text-align: center;
+  }
+  @media (max-width: 930px) {
+    .homescreen .coins {
+      margin-top: 20px;
+    }
+  }
+  @media (max-width: 768px) {
+    .homescreen .coins {
+      margin-top: 0;
+    }
+  }
+  @media (max-width: 600px) {
+    .homescreen .coins {
+      margin-top: 0;
+    }
+  }

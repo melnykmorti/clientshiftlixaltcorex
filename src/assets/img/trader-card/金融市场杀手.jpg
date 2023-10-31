@@ -1,0 +1,20 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>404 - Not Found | ALTCOREX.COM</title>
+    <link rel="icon" href="../assets/img/logos/default.png">
+    <link rel="stylesheet" href="../assets/css/root.min.css">
+    <link rel="stylesheet" href="../assets/css/toastr.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header__logo">
+                <div class="header__logo-icon" onclick="location.replace('/')">
+                                        <svg width="40" height="36" viewBox="0 0 40 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 0L24.4903 13.6071L39.0211 13.6071L
